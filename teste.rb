@@ -1,5 +1,5 @@
-class Teste
-  def say
-    puts "Hello"
+class Person
+  def say_jello(name)
+    puts "Hello #{name}"
   end
 end

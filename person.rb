@@ -8,6 +8,10 @@ class Person
   end
 
   def say_hello
-    puts "Hello #{@first_name} #{@last_name}"
+    if age < 2
+      puts "cuti cuti"
+    else
+      puts "Hello #{@first_name} #{@last_name}"
+    end
   end
 end

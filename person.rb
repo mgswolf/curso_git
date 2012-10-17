@@ -1,12 +1,9 @@
 class Person
 
-  attr_accessor :first_name, :last_name, :age, :sex
+  attr_accessor :first_name, :last_name, :age, :sex, :country
 
   def initializer(first_name, last_name, age, sex)
-    @first_name = frist_name
-    @last_name = last_name
-    @age = age
-    @sex = sex
+    @first_name,@last_name,@age,@sex ,@country = frist_name, last_name, age, sex, country
 
   end
 
@@ -14,7 +11,7 @@ class Person
     if age < 2
       puts "cuti cuti"
     else
-      puts "Hello #{@full_name}, your are: #{@sex} "
+      puts "Hello #{@full_name}, your are: #{@sex}, from #{@country} "
     end
   end
 

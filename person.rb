@@ -1,10 +1,13 @@
 class Person
-  attr_accessor :first_name, :last_name, :age
 
-  def initializer(first_name, last_name, age)
+  attr_accessor :first_name, :last_name, :age, :sex
+
+  def initializer(first_name, last_name, age, sex)
     @first_name = frist_name
     @last_name = last_name
     @age = age
+    @sex = sex
+
   end
 
   def say_hello

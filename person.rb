@@ -14,7 +14,7 @@ class Person
     if age < 2
       puts "cuti cuti"
     else
-      puts "Hello #{@full_name} "
+      puts "Hello #{@full_name}, your are: #{@sex} "
     end
   end
 
